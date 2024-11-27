@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>AJ Chat Bot</title>
+    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="shortcut icon" href="./assets/ai.png" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="logo">
+      <p>Chanakya</p>
+      <img src="./assets/chanakya.webp" alt="chanakya" />
+    </div>
+    <div class="chat-container">
+      <div class="ai-chat-box">
+        <img src="./assets/ai.png" alt="" id="aiImage" width="10%" />
+        <div class="ai-chat-area">Hey! How can I help you?</div>
+      </div>
+    </div>
+    <div class="prompt-area">
+      <input type="text" id="prompt" placeholder="Ask me anything..." />
+      <button id="image">
+        <img src="./assets/img.svg" alt="" />
+        <input type="file" accept="images/*" hidden />
+      </button>
+      <button id="submit"><img src="./assets/submit.svg" alt="" /></button>
+    </div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
